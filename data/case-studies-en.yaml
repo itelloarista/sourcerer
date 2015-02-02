@@ -1,0 +1,29 @@
+---
+
+- title: I Paid a Bribe
+  url: http://www.ipaidabribe.com
+  description: I Paid A Bribe is an online platform that uses citizen reporting to identify corrupt government services and work with local government to effect process change.
+  activity: DATA
+  scope: NATIONAL
+  sector: NON-PROFIT
+  focus: TRANSPARENCY-ACCOUNTABILITY
+  incentives: CIVIC-RESPONSIBILITY
+  location: India
+  interface:
+  quality_control:
+  historical_information: >
+     I Paid a Bribe was launched by the co-founders and board members of Janaagraha, a non-profit that works to improve the quality of citizenship, infrastructure and services in India's cities. The site was officially launched on August 15, 2010, India's Independence Day.
+     <br/>
+     The site allows Citizens to report bribes, which Janaagraha uses to push for improving governance systems and procedures, with the goal of tightening law enforcement and regulation, and thereby reducing the scope of corruption in government services. On the site, users can report on the nature, number, pattern, types, location, frequency and values of actual corrupt acts in government.
+     <br/>
+     Users can sort and view all reports, as well as report "honest officials".
+     On average, the site receives about 25 to 50 reports a day. In addition, there are about 20-50 reports and comments a day logged in on the various forums and the administrator’s blog.
+  output: >
+    The use of crowd-reporting services has, to date, traditionally been utilized in areas of public works, like reporting potholes. I Paid A Bribe is notable for taking this type of functionality out of the utilitarian realm and applying it to combat corruption. To date, the I Paid A Bribe site has received over 4.5 million visits.
+  impact_today: >
+    I Paid a Bribe has launched, or is coming soon, to 16 other countries, and may serve as inspiration for other corruption-based crowd reporting initiatives. As of 2012, there were more than 400,000 reports to the site. 
+  impact_longer_term: >
+    TBD
+  challenges: >
+    The greatest challenge to the efficacy of I Paid A Bribe is that the initiative is not integrated with government in any official capacity. The platform could also benefit from an improved user-interface, including search functions and access to raw data.
+  lessons:
