@@ -1,0 +1,30 @@
+---
+
+- name: activity
+  values:
+  - TASKS
+  - DATA
+  - OPINIONS
+  - IDEAS
+  - FUNDS
+
+- name: sector
+  values:
+  - GOV
+  - PRIVATE
+  - NON-PROFIT
+  - EDU
+
+- name: scope
+  values:
+  - INTERNATIONAL
+  - REGIONAL
+  - LOCAL
+
+- name: focus
+  values:
+  - 
+
+- name: incentives
+  values:
+  - 
