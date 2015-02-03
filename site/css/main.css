@@ -393,11 +393,17 @@ h4 {
 	font-size: 12px;
 }
 
+#questionnaire .button-generate-report {
+	border-color: #333333;
+	color: #333333;
+}
 
-/* SERVICES */
 
-#services {
+/* REPORT */
+
+#report {
 	color:#999;
+	display: none;
 }
 
 .service {
@@ -405,11 +411,11 @@ h4 {
 	display: inline-table;
 }
 
-#services h3 {
+#report h3 {
 	margin-top:0;
 }
 
-#services i {
+#report i {
 	color:#1a1a1a;
 	float:left;
 	margin:0px 10px 120px 0;
@@ -417,9 +423,16 @@ h4 {
 	text-align:center;
 }
 
+#report .report-category-heading {
+	display: none;
+}
 
-/* WORKS 
 
+/* WORKS  */
+
+#relevant-case-studies {
+	display: none;
+}
    if you want any change on portfolio, please go cubeportfolio.css */
    
    

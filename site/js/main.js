@@ -69,10 +69,33 @@ jQuery(document).ready(function($) {
     //     console.log(currentPage);
     // });
 	
+    //----------------GENERATES REPORT-----------------
+    $('#questionnaire').on('click', '.button-generate-report', function() {
+        var options = {};
+        $.each($('input[name="question"]'), function(index, value) { 
+            options[this.id] = this.checked ? 1 : 0; 
+        });
+        $('.report-category-heading').hide();
+        $('#report').hide();
+        for (var key in options) {
+            if (options[key]) {
+                $('.'+ key).show();
+                $('.'+key.substring(0,2)).show();
+            } else {
+                $('.'+key).hide();
+            }
+        }
+        $('#report').show();
+    });
 
-
-
-
+// var total_options = [
+//         "q1-tasks", "q1-data", "q1-funds", "q1-opinions", 
+//         "q1-ideas", "q2-finance", "q2-knowledge", "q2-skill", 
+//         "q2-community", "q2-civic", "q2-competition", "q2-altruism", 
+//         "q2-recreational", "q2-networking", "q2-identity", 
+//         "q2-public", "q2-personal", "q3-yes", "q3-no", "q4-mobile", 
+//         "q4-website", "q4-sms", "q4-social", "q4-emails", "q5-you", 
+//         "q5-group", "q5-voting", "q5-rating", "q5-peer", "q5-none"]
 
 
 	
