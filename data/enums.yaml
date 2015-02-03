@@ -1,30 +1,27 @@
 ---
 
-- name: activity
-  values:
-  - TASKS
-  - DATA
-  - OPINIONS
-  - IDEAS
-  - FUNDS
-
-- name: sector
-  values:
-  - GOV
-  - PRIVATE
-  - NON-PROFIT
-  - EDU
-
-- name: scope
-  values:
-  - INTERNATIONAL
-  - REGIONAL
-  - LOCAL
-
-- name: focus
-  values:
-  - TRANSPARENCY-ACCOUNTABILITY
-
-- name: incentives
-  values:
-  - CIVIC-RESPONSIBILITY
+activities:
+  - Tasks
+  - Data
+  - Opinions
+  - Ideas
+  - Funds
+sectors:
+  - Government
+  - Private
+  - Non-profit
+  - Education
+scopes:
+  - International
+  - Regional
+  - Local
+foci:
+  - Transparency-Accountability
+  - Crowdfunding
+  - Q&A Site
+  - Crisis Mapping
+  - Citizen Science
+  - Prize-backed Challenges
+  - Open Data
+incentives:
+  - Civic Reposnibility

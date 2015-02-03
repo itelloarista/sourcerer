@@ -6,11 +6,12 @@
    I Paid A Bribe is an online platform that uses citizen reporting 
    to identify corrupt government services and work with local government to 
    effect process change.
-  activity: DATA
-  scope: NATIONAL
-  sector: NON-PROFIT
-  focus: TRANSPARENCY-ACCOUNTABILITY
-  incentives: CIVIC-RESPONSIBILITY
+  activity: Data
+  scope: National
+  sector: Non-profit
+  thumbnail_url: img/1big.jpg
+  focus: Transparency-Accountability
+  incentives: Civic-Reponsibility
   location: India
   interface:
   quality_control:
@@ -49,3 +50,53 @@
     The platform could also benefit from an improved user-interface, including 
     search functions and access to raw data.
   lessons:
+
+- title: Kickstarter
+  focus: Crowdfunding
+  thumbnail_url: img/1big.jpg
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  location: USA
+
+- title: Quora
+  focus: Q&A Site
+  thumbnail_url: img/1big.jpg
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  location: USA
+
+- title: Ushahidi
+  focus: Crisis Mapping
+  thumbnail_url: img/1big.jpg
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  location: Mexico
+
+- title: Innocentive
+  focus: Prize-Backed Challenges
+  thumbnail_url: img/1big.jpg
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  location: Norway
+
+- title: Open Data 500
+  focus: Open Data
+  thumbnail_url: img/1big.jpg
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  location: France
