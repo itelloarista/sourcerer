@@ -11,7 +11,7 @@ def Main():
       extensions=['jinja2.ext.with_'])
   page = "index"
   template = env.get_template('%s.html' % page)
-  html = template.render()
+  html = template.render({ 'title': 'Crowdsourcing Advisor - a GovLab production'})
   with open('site/%s.html' % page, 'w') as f:
     f.write(html.encode('utf8'))
     f.close()
