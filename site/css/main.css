@@ -10,7 +10,7 @@
 	6. TEAM
 	7. MILESTONE
 	8. PROCESS
-	9. TESTIMONIAL
+	9. QUESTIONNAIRE
 	10. SERVICES
 	11. WORKS
 	12. HIGHLIGHT
@@ -312,37 +312,48 @@ h4 {
 }
 
 
-/* TESTIMONIAL */
+/* QUESTIONNAIRE */
 
-#testimonial {
-	color:#ffffff;
-	background-color:#333333;
+#questionnaire {
+	color:#333333;
+	background-color:#ececee;
 	padding:55px 0 35px 0;
 	width:100%;
 	overflow: hidden;
 	z-index:0;
 	height:auto;
-	background:url(../img/testimonial-bg.jpg) bottom center no-repeat fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
 }
 
-#testimonial img {
+#questionnaire img {
 	position:absolute;
 }
 
+#questionnaire .item {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
-#testimonial p {
-	font-size:31px;
+
+#questionnaire p {
+	font-size:18px;
 	font-family:'Montserrat';
 	letter-spacing:-1px;
-	line-height:35px;
-	padding-top:50px;
+	line-height:22px;
+	padding-top:22px;
 	margin-left:20px;
 }
 
-#testimonial h4 {
+#questionnaire small {
+	font-size: 10px;
+	font-family: 'Montserrat';
+	margin-left: 20px;
+}
+
+#questionnaire h4 {
 	color:#1a1a1a;
 	font-family:misoregular;
 	font-size:27px;
@@ -350,9 +361,38 @@ h4 {
 	letter-spacing:1px;
 }
 
-#testimonial .owl-theme .owl-controls{
-	float:right;
+#questionnaire .owl-theme .owl-controls{
+	float:center;
 }
+
+#questionnaire .owl-prev {
+	color: #333333;
+	background: #fff;
+	opacity: 0.9;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#questionnaire .owl-next {
+	color: #333333;
+	background: #fff;
+	opacity: 0.9;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#questionnaire .info-dropdown  {
+	margin-left: 20px;
+	color: #1a1a1a;
+	font-family: 'Montserrat';
+	font-size: 14px;
+}
+
+#questionnaire .owl-numbers {
+	color: #000;
+	font-size: 12px;
+}
+
 
 /* SERVICES */
 

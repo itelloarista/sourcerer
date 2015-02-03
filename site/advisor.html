@@ -60,10 +60,10 @@
             <div class="collapse navbar-collapse" id="nav">
               <ul class="nav navbar-nav navbar-right uppercase">
                 <li><a data-scroll href="/#nav">Home</a></li>
-                <li><a data-scroll href="#advisor">Advisor</a></li>
-                <li><a data-scroll href="#case-studies">Case Studies</a></li>
-                <li><a data-scroll href="#about">About</a></li>
-                <li><a data-scroll href="#team">Team</a></li>
+                <li><a data-scroll href="/advisor.html">Advisor</a></li>
+                <li><a data-scroll href="/#case-studies">Case Studies</a></li>
+                <li><a data-scroll href="/#about">About</a></li>
+                <li><a data-scroll href="/#team">Team</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -79,16 +79,473 @@
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-12 text-center">
-                	<img src="img/logo.png" alt="logo">
                 	<h1 class="wow fadeInDown">The Crowdsourcing Design Advisor</span></h1>
-                    <p class="subhead wow fadeInDown" data-wow-delay="0.2s">A five minute questionnaire designed to provide you with case studies and learnins about crowdsourcing tailored to your needs and circumstance.</p>
+                    <p class="subhead wow fadeInDown" data-wow-delay="0.2s">A five minute questionnaire designed to provide you with case studies and learnings about crowdsourcing tailored to your needs and circumstance.</p>
                 </div>
             </div>
         </div>
     </section>
 
 
-        <section id="about">
+        <!-- SECTION TESTIMONIAL -->
+		<section id="questionnaire" data-stellar-background-ratio="0.9">
+        	<div class="container">
+                
+                <div id="quote" class="owl-carousel owl-theme">
+                    <div class="item col-lg-8">
+                    	<h4 class="uppercase">Is crowdsourcing the right tool for your project?</h4>
+                        <p>"As new communication technologies redesign the relationships we have with one another, there is increased interest in how to leverage the collective intelligence of online communities to serve business goals, improve public participation in governance, strengthen and facilitate citizen participation in government, design products, and even solve complex problems (ranging from tackling corruption and combating urban crime to accelerating scientific analysis to cure cancer)."*</p>
+						<p>This tool will briefly interview you. Based on your answers it will offer you a detailed report, including general comments and existing cases that used crowdsourcing in a similar manner to your particular situation.</p>
+						<small>*Brabham, Daren C. Crowdsourcing. MIT Press. Cambridge, Massachusetts, 2013.</small>
+                    </div>
+                    
+	                <div class="item col-lg-8">
+	                	<h4 class="uppercase">Is crowdsourcing the right tool for your project?</h4>
+	                    <p>Are ALL of these statements true?</p>
+	                    <ul>
+							<li>Do you need an activity to be performed?</li>
+							<li>Do you want to engage a community (crowd) to perform that activity  in an online environment?</li>
+							<li>Will the community (crowd) gain benefits (ranging from financial rewards to skill building to building social networks) with their participation?</li>
+							<li>Do you have in mind some organizational goals related to the activity you want performed?</li>
+						 </ul>
+						<p>If ALL of those statements are TRUE you are ready to start the interview!"</p>
+	                </div>
+                    
+	                <div class="item col-lg-8">
+	                	<h4 class="uppercase">Which activity best describes what you want the crowd to do?</h4>
+	                	<div class="accordion" id="accordion1">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">Why we ask</p>
+								</div>
+								<div id="collapseOne" class="accordion-body collapse">
+									<div class="accordion-inner">
+										While crowdsourcing is a somewhat unified field, what you’re trying to get from the crowd can greatly influence the methodology, the incentives, and the type of interface you’d like to use.
+									</div>
+								</div>
+							</div>
+						</div>
+	                    <p>Please select one or more</p>
+	                    <input type="checkbox" name="question1" id="q1-tasks"><label for="q1-tasks">Tasks — You ask the crowd to perform specific tasks (i.e. design a t-shirt, tag photos, classify information)</label><br>
+	                    <input type="checkbox" name="question1" id="q1-data"><label for="q1-data">Data — You collect data from the crowd (i.e. report a water leak, a pothole, a case of corruption)</label><br>
+	                    <input type="checkbox" name="question1" id="q1-funds"><label for="q1-funds">Funds — You obtain funds from the crowd (i.e. donate money to help film a documentary, open a fair trade restaurant, help stage a theater play)</label><br>
+	                    <input type="checkbox" name="question1" id="q1-opinions"><label for="q1-opinions">Opinions — You ask the crowd for their opinion (i.e. vote on a design contest, give your perspective on a policy recommendation)</label><br>
+	                    <input type="checkbox" name="question1" id="q1-ideas"><label for="q1-ideas">Ideas –You want the crowd to find innovative solutions (i.e. solve a scientific problem, give solutions to improve the health system of a hospital, generate ideas to reduce unnecessary government spending)</label>
+					</div>
+
+	                <div class="item col-lg-8">
+	                	<h4 class="uppercase">Why will the crowd be willing to participate?</h4>
+	                	<div class="accordion" id="accordion2">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Why we ask</p>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										While there is an accumulation of motivations to understand and explain the crowd participation, the key for your decision is to keep in mind what motivates the type of individuals you would like to engage and the type of response they would like in exchange for performing the specific activity that is being asked from them. 
+									</div>
+								</div>
+							</div>
+						</div>
+	                    <p>Please select one or more</p>
+						<input type="checkbox" name="question2" id="q2-finance"><label for="q2-finance">Financial Incentives –To earn money</label><br>
+						<input type="checkbox" name="question2" id="q2-knowledge"><label for="q2-knowledge">Knowledge Building and Information Sharing — To contribute with your knowledge and information</label><br>
+						<input type="checkbox" name="question2" id="q2-skill"><label for="q2-skill">Skill Development — To develop certain skills</label><br>
+						<input type="checkbox" name="question2" id="q2-community"><label for="q2-community">Community Building –To contribute to a large project of common interest</label><br>
+						<input type="checkbox" name="question2" id="q2-civic"><label for="q2-civic">Civic Responsibility –Altruism motivates citizen volunteers</label><br>
+						<input type="checkbox" name="question2" id="q2-competition"><label for="q2-competition">Competition — To be challenged with a tough problem</label><br>
+						<input type="checkbox" name="question2" id="q2-altruism"><label for="q2-altruism">Altruistic incentive —To help others</label><br>
+						<input type="checkbox" name="question2" id="q2-recreational"><label for="q2-recreational">Recreational (ludic) incentive — To enjoy oneself and have fun</label><br>
+						<input type="checkbox" name="question2" id="q2-networking"><label for="q2-networking">Network building — To meet individuals and establish work connections</label><br>
+						<input type="checkbox" name="question2" id="q2-identity"><label for="q2-identity">Identity and Portfolio building- To develop personal qualities or a portfolio of work</label><br>
+						<input type="checkbox" name="question2" id="q2-public"><label for="q2-public">Public Recognition –To socialize and be publicly acknowledged</label><br>
+						<input type="checkbox" name="question2" id="q2-personal"><label for="q2-personal">Personal satisfaction- To feel good about oneself</label><br>
+					</div>
+
+					<div class="item col-lg-8">
+	                	<h4 class="uppercase">Do you want to limit participation to a defined community, or do you want anyone to be able to participate? </h4>
+	                	<div class="accordion" id="accordion3">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">Why we ask</p>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+										While the decision to limit (or not) the crowd is directly related to the activity you want them to perform, since most of the times the activity itself will have the effect of causing the crowd to self-select. 
+									</div>
+								</div>
+							</div>
+						</div>
+	                    <p>Please select one or more</p>
+						<input type="checkbox" name="question3" id="q3-yes"><label for="q3-finance">Yes – I want to limit participation to a defined community</label><br>
+						<input type="checkbox" name="question3" id="q3-no"><label for="q3-knowledge">No – Allow anyone willing to participate to do so</label><br>
+					</div>
+
+					<div class="item col-lg-8">
+	                	<h4 class="uppercase">Through which communication technology or platform will the crowd participate?</h4>
+	                	<div class="accordion" id="accordion4">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">Why we ask</p>
+								</div>
+								<div id="collapseFour" class="accordion-body collapse">
+									<div class="accordion-inner">
+										While crowdsourcing can be done through easy-to-use website platforms there are other trends involving the use of platforms that use mobile technology, SMS text-based and social media contributions. 
+									</div>
+								</div>
+							</div>
+						</div>
+	                    <p>Please select one or more</p>
+						<input type="checkbox" name="question4" id="q4-finance"><label for="q4-finance">Mobile Application</label><br>
+						<input type="checkbox" name="question4" id="q4-website"><label for="q4-website">Website</label><br>
+						<input type="checkbox" name="question4" id="q4-sms"><label for="q4-sms">SMS Texts</label><br>
+						<input type="checkbox" name="question4" id="q4-social"><label for="q4-social">Social Media</label><br>
+						<input type="checkbox" name="question4" id="q4-emails"><label for="q4-emails">Emails</label><br>
+					</div>
+
+					<div class="item col-lg-8">
+	                	<h4 class="uppercase">The activity to be performed by the crowd will have the following quality control mechanism: </h4>
+	                	<div class="accordion" id="accordion5">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Why we ask</p>
+								</div>
+								<div id="collapseFive" class="accordion-body collapse">
+									<div class="accordion-inner">
+										Quality control has been one of the biggest concerns associated to crowdsourcing, so keeping it in mind with the consequences each method implies will be key for obtaining the results you expect. 
+									</div>
+								</div>
+							</div>
+						</div>
+	                    <p>Please select one or more</p>
+						<input type="checkbox" name="question5" id="q5-you"><label for="q5-you">You -The crowdsourcing organization will choose which activity performed by the crowd is the best fit</label><br>
+						<input type="checkbox" name="question5" id="q5-group"><label for="q5-group">Group of Experts -A group of experts will verify the quality and have the final decision about the activity performed by the crowd</label><br>
+						<input type="checkbox" name="question5" id="q5-voting"><label for="q5-voting">Voting -The crowd will verify the quality of the activity performed the crowd by voting for the best choice</label><br>
+						<input type="checkbox" name="question5" id="q5-rating"><label for="q5-rating">Rating -The crowd will rate the quality of the activity performed by ranking submissions or individually voting up or down</label><br>
+						<input type="checkbox" name="question5" id="q5-peer"><label for="q5-peer">Peer-reviewed -A self-selected group of peers will verify the quality of the activity performed by the crowd to which they belong</label><br>
+						<input type="checkbox" name="question5" id="q5-no"><label for="q5-no">No quality control - for example, crowdfunding doesn’t require a quality control mechanism</label><br>
+					</div>
+            	</div>
+        	</div>
+        </section>
+
+
+		<!-- SERVICES -->
+		<section id="services">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-8 col-lg-offset-2 text-center">
+                    	<h2 class="uppercase">Report Overview</h2>
+                        <p class="subhead">Important Considerations Based on Your Circumstances</p>
+                    </div>
+
+                    <!-- ACTIVITY !-->
+                    <div class="col-lg-10 col-lg-offset-1 text-left">
+                    	<h2 class="uppercase">The Activity</h2>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-check-circle fa-3x"></i>
+                            <h3>Tasks</h3>
+                            <ul>
+                            	<li>This method implies distributing tasks to a community who are more typically self-selected.</li>
+								<li>Tasks typically fall into two categories. Microtasks, which are simple, independent tasks that are part of a larger project and cannot be easily automated; and skilled tasks, multi-hour tasks hosted on professional marketplaces.</li>
+								<li>Quality control remains a key challenge for this kind of activity.</li>
+								<li>One potential complication of crowdsourcing tasks is navigating intellectual property - make sure to think about who retains the property rights of any final output.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-database fa-3x"></i>
+                            <h3>Data</h3>
+                            <ul>
+                            	<li>This activity involves collecting information from a large amount of on-the-ground observers who are more likely to provide a clear picture of an event.</li>
+								<li>Data gathering is particularly successful when needing to fill communications gaps during rapidly developing events.</li>
+								<li>Data is mostly gathered through mechanisms such as SMS text messaging, social media or via website. Establishing multiple mechanisms to report is usually a key condition to success.</li>
+								<li>Although literature suggests it has tremendous potential, the volume of information can present challenges of data mining, verification and prioritizing.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-money fa-3x"></i>
+                            <h3>Funds</h3>
+                            <ul>
+                            	<li>The mechanism used to obtain fund from the crowd, also known as crowdfunding, usually involves an open call for the provision of relatively small contributions from a relatively large number of individuals.</li>
+								<li>One of its advantages is that the mechanism directly connects funders with projects in need of funding, avoiding the traditional slow, multi-step funding processes like grant applications or bank loans.</li>
+								<li>A generally key component for the success of this activity occurs when the crowd feels personally connected to the growth of the initiative, that is, when the motivations of both parties are aligned.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-comment-o fa-3x"></i>
+                            <h3>Opinions</h3>
+                            <ul>
+                            	<li>They key component of this activity is that it has the capacity to leverage the real-time web browsing, and increased overall connectivity around the globe of ordinary citizens.</li>
+                            	<li>Also named, sentiment analysis, companies have generally used it as a method of automatic detection of negative and positive emotions, opinions and other evaluations in text.</li>
+                            	<li>A challenge of crowdsourcing opinions is that it is complicated to build software that mines the Internet for opinions and has the ability to interpret that data.</li>
+								<li>Another challenge is the fact that sometimes multiple sentiments are directed at the same or different targets in a single sample.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-lightbulb-o fa-3x"></i>
+                            <h3>Ideas</h3>
+                            <ul>
+                            	<li>Generally, it’s important to have a technology platform that allows you to both ask the right question and filter through the submissions to obtain the answers you’re looking for.</li>
+								<li>The public sector often uses “ideation platforms” to crowdsource ideas. These online platforms provide space for brainstorming and voting to enable the crowd to submit new ideas, search previously submitted ideas, post questions and challenges, discuss and expand on ideas, vote ideas up or down and flag ideas that don’t fit the question.</li>
+								<li>Given the relatively new stages of ideation platforms, institutions and entrepreneurs must acknowledge that, given certain technological constraints, the results they wish to achieve may not be the most sound.</li>
+								<li>One potential complication of crowdsourcing ideas is navigating intellectual property - make sure to think about who retains the property rights of any final output.</li>
+							</ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Incentives !-->
+                    <div class="col-lg-10 col-lg-offset-1 text-left">
+                    	<h2 class="uppercase">Incentives</h2>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-money fa-3x"></i>
+                            <h3>Financial Incentives</h3>
+                            <ul>
+                            	<li>Financial incentives are typically provided through a contest dynamic as a prize or in exchange for labor on a specific activity.</li>
+                            	<li>Financial incentives are particularly effective when crowdsourcing tasks. However, the amount offered for the task can matter. Paying a larger amount for a specific number of tasks as opposed to paying a small amount per task increases the quality of the output.</li>
+								<li>Some studies have shown financial rewards can have a negative effect on creative results. Therefore, whether to include a financial reward should be an important consideration for tasks that are intended to be more creative.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-book fa-3x"></i>
+                            <h3>Knowledge Building</h3>
+                            <ul>
+                            	<li>Usually, the users that participate are part of an active community who value the creation and maintenance of content.</li>
+								<li>Participants value being potential authors and editors and authoring articles co-creatively.</li>
+								<li>Although creating and sustaining collaborative knowledge building is seen as an opportunity for growing and accumulating knowledge in a specific field, it can also be described as a constant work-in-progress which needs consistent feeding and maintenance.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-wrench fa-3x"></i>
+                            <h3>Skill Development</h3>
+                            <ul>
+                            	<li>Crowdsourcing participants can be motivated by skill development incentives for reasons that relate to both career opportunities as well as simple interest in a particular subject or activity.</li>
+								<li>Skill development incentives often require the participant to undergo some sort of training or online tutorial to learn the new skill.</li>
+								<li>The crowd that is often motivated to build a portfolio for future employment is people who have a particular interest but are trying to gain expertise in that area.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-users fa-3x"></i>
+                            <h3>Community Building</h3>
+                            <ul>
+                            	<li>People who are willing to undertake activities for community building usually do so because they want to contribute to a large cause/project with individuals who have similar priorities</li>
+								<li>Communicating exactly how their contributions will impact the common cause is key. This is particularly important in order to avoid false expectations.</li>
+								<li>Generally, the greater the perceived impact of the crowd, the more they will be willing to participate and commit their time to the cause/project.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-university fa-3x"></i>
+                            <h3>Civic Responsibility</h3>
+                            <ul>
+                            	<li>Altruism is cited as one of the main motivations of citizen volunteers.</li>
+								<li>A participatory culture enhances increases public/citizen engagement and those individuals have a greater stake in the advancement of an issue or set of issues.</li>
+								<li>Civic responsibility eases perceived barriers between a government, advocates, and the public and will enhance communication between all parties involved.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-star-o fa-3x"></i>
+                            <h3>Public Recognition</h3>
+                            <ul>
+                            	<li>Individuals are more likely motivated to contribute when they perceive that peers are valuing their contribution.</li>
+								<li>Usually, recognition is earned by the crowd voting on or rating their peers or by reaching specific milestones in order to acquire a special status. </li>
+								<li>If the recognition is going to be earned by granting the user a specific status, it is usually recommended to pay special attention to having clear rules of participation.</li>
+							</ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-trophy fa-3x"></i>
+                            <h3>Competition</h3>
+                            <ul>
+                            	<li>Individuals are often motivated to challenge themselves to solve a tough problem.</li>
+								<li>Successful methods for foster competition among members of the crow often have the characteristics of gamification, which applies game-like characteristics to non-game settings in order to drive audience engagement and help them have fun at the same time.</li>
+								<li>Sometimes competition is fostered by turning the activity into a game, but it isn’t a required element.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <!-- The Crowd !-->
+                    <div class="col-lg-10 col-lg-offset-1 text-left">
+                    	<h2 class="uppercase">The Crowd</h2>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-users fa-3x"></i>
+                            <h3>Limit Participation to a Defined Community</h3>
+                            <ul>
+                            	<li>Being more selective with the type of crowd you want to engage for participation may generate higher quality in the performance.</li>
+								<li>A common example of this kind of barrier to entry takes the form of a credential-based approach, i.e, a crowd made up of lawyers, or licensed physicians, etc, but it is difficult to use this type of limitation when the crowd is anonymous.</li>
+								<li>Limiting participation to a specific set of users usually presents the challenge of developing a mechanism that has the ability to verify the crowd-characteristics you are looking for.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-user-times fa-3x"></i>
+                            <h3>Anyone Willing to Participate</h3>
+                            <ul>
+                            	<li>Allowing anyone to participate is generally recommended when there is no obvious combination of skills needed to find a solution.
+								<li>A benefit to allowing anyone to participate is the size of the crowd - larger crowds may be able accomplish tasks at a faster rate.</li>
+								<li>Usually, when everyone can participate quality control is commonly controlled through contests, where you, a group of experts, or the crowd itself can select the winner.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <!-- The Crowd !-->
+                    <div class="col-lg-10 col-lg-offset-1 text-left">
+                    	<h2 class="uppercase">Quality Control</h2>
+                    </div>
+
+                    
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-female fa-3x"></i>
+                            <h3>Client</h3>
+                            <ul>
+                            	<li>Based on your choice, the activity performed by the crowd will have a high level of quality control since you or a group of experts will review the final output.</li>
+							</ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-monitor fa-3x"></i>
+                            <h3>Group of Experts</h3>
+                            <ul>
+								<li>This kind of quality control is usually recommended for activities that require a higher level of expertise or that require complex technical abilities.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-monitor fa-3x"></i>
+                            <h3>Voting</h3>
+                            <ul>
+                            	<li>Based on your choice, it is suggested that the activity you want the crowd to perform requires lower levels of quality control since you will have no part in the rating or selection.</li>
+								<li>This kind of quality control works well when crowdsourcing ideas or opinions, because it allows the crowd to prioritize the crowdsourced output.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-monitor fa-3x"></i>
+                            <h3>Prioritizing</h3>
+                            <ul>
+                            	<li>Based on your choice, the activity performed by the crowd will have a high level of quality control since you or a group of experts will review the final output.</li>
+								<li>This kind of quality control is usually recommended for activities that require a higher level of expertise or that require complex technical abilities.</li>
+							</ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-monitor fa-3x"></i>
+                            <h3>Peer-Reviewed</h3>
+                            <ul>
+                            	<li>Based on your choice, the activity performed by the crowd will have a high level of quality control since you or a group of experts will review the final output.</li>
+								<li>This kind of quality control is usually recommended for activities that require a higher level of expertise or that require complex technical abilities.</li>
+							</ul>
+                        </div>
+                    </div>
+                          
+                    <div class="col-lg-8 col-lg-offset-2 text-left">
+                        <div class="service">
+                            <i class="fa fa-monitor fa-3x"></i>
+                            <h3>No Quality Control</h3>
+                            <ul>
+								<li>Based on your choice, you may be engaging in an activity that does not require quality control, such as crowdfunding.</li>
+							</ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+		<!-- WORKS -->
+        <section id="case-studies">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-12 text-center">
+                    	<h2 class="uppercase">Relevant Case Studies</h2>
+                    </div>
+                	<div class="wrapper">
+						
+                        <!-- PORTOLIO FILTER -->
+                        <div id="filters-container" class="cbp-l-filters-button text-center">
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"></div>
+                        </div>
+            			
+                        <!-- PORTOLIO -->
+                        <div id="grid-container" class="cbp-l-grid-projects ">
+                            <ul>
+                            	<!--- CASE STUDY ITEMS. !-->
+                                <li class="cbp-item CASE_STUDY_FOCUS">
+                                    <div class="cbp-caption">
+                                        <div class="cbp-caption-defaultWrap">
+                                            <img src="img/1.jpg" alt="" width="100%">
+                                        </div>
+                                        <div class="cbp-caption-activeWrap">
+                                            <div class="cbp-l-caption-alignCenter">
+                                                <div class="cbp-l-caption-body">
+                                                    <a href="ajax/CASE_STUDY_HTML.html" class="cbp-singlePage cbp-l-caption-buttonLeft"><i class="pe-3x pe-7s-plus"></i></a>
+                                                    <a href="CASE_STUDY_THUMBNAIL" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Dashboard<br>by Paul Flavius Nechita"><i class="pe-3x pe-7s-search"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-l-grid-projects-title">CASE_STUDY_TITLE</div>
+                                    <div class="cbp-l-grid-projects-desc">CASE_STUDY_FOCUS</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--         <section id="about">
             
             <div class="about-img" data-stellar-background-ratio="0.5">
                 <div id="head" class="container">
@@ -119,7 +576,7 @@
                     </div>
                 </div> 
             </div>
-        </section>
+        </section> -->
 
 
 
@@ -175,7 +632,7 @@
         <script src="js/jquery.superslides.min.js"></script>
         <script src="js/jquery.cubeportfolio.js"></script>
         <script src="js/jquery.simple-text-rotator.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/jquery.countTo.js"></script>
         <script src="js/jquery.stellar.min.js"></script>

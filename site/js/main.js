@@ -41,45 +41,67 @@ jQuery(document).ready(function($) {
 	);
 	wow.init();
     
+
+
+
+
 	  
 	//OWLCAROUSEL TESTIMONIAL
 	$("#quote").owlCarousel({
- 
-		pagination : false, 
-		slideSpeed : 300,
-		paginationSpeed : 400,
+		autoPlay: false,
+        pagination : true, 
+		slideSpeed : 500,
+		paginationSpeed : 600,
+        paginationNumbers: true,
 		singleItem:true,
+        rewindNav: false,
+        scrollPerPage : true,
+        mouseDrag: false,
 		navigation : true, // Show next and prev buttons
-		navigationText : ['<i class="pe-7s-angle-left-circle pe-3x"></i>','<i class="pe-7s-angle-right-circle pe-3x"></i>']
+		navigationText : ['<div class="q-buttons owl-prev" style="">Previous</div>','<div class="q-buttons owl-next" style="">Next</div>']
 	});
+    // var owl = $('#quote').data('owlCarousel');
+    // var currentPage = 1;
+    // console.log(currentPage);
+    // $('#quote').on('click', '.owl-next', function() {
+    //     currentPage ++;
+    //     owl.jumpTo(1);
+    //     console.log(currentPage);
+    // });
+	
+
+
+
+
+
+
+	
+	// //OWLCAROUSEL TEAM
+	// $("#team-slider").owlCarousel({
+ 
+	// 	slideSpeed : 300,
+	// 	paginationSpeed : 400,
+	// 	singleItem:false,
+	// 	items : 3,
+	// 	itemsDesktop : [1200,3],
+	// 	itemsDesktopSmall : [980,3],
+	// 	itemsTablet: [768,2],
+	// 	itemsMobile : [479,1],
+	// 	navigation : true, // Show next and prev buttons
+	// 	navigationText : ['<i class="pe-7s-angle-left-circle pe-3x"></i>','<i class="pe-7s-angle-right-circle pe-3x"></i>']
+	// });
 	
 	
-	//OWLCAROUSEL TEAM
-	$("#team-slider").owlCarousel({
+	// //OWLCAROUSEL CLIENTS 
+	// $("#clients-carousel").owlCarousel({
  
-		slideSpeed : 300,
-		paginationSpeed : 400,
-		singleItem:false,
-		items : 3,
-		itemsDesktop : [1200,3],
-		itemsDesktopSmall : [980,3],
-		itemsTablet: [768,2],
-		itemsMobile : [479,1],
-		navigation : true, // Show next and prev buttons
-		navigationText : ['<i class="pe-7s-angle-left-circle pe-3x"></i>','<i class="pe-7s-angle-right-circle pe-3x"></i>']
-	});
-	
-	
-	//OWLCAROUSEL CLIENTS 
-	$("#clients-carousel").owlCarousel({
+ //      autoPlay: false, 
  
-      autoPlay: false, 
+ //      items : 6,
+ //      itemsDesktop : [1199,3],
+ //      itemsDesktopSmall : [979,3]
  
-      items : 6,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
- 
-  	});
+ //  	});
   
   
 	//LIGHTBOX GALLERY
