@@ -3,7 +3,7 @@
 
 
     <!-- SECTION WELCOME -->
-    <section id="advisor">
+    <section id="advisor-title">
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-12 text-center">
@@ -43,7 +43,7 @@
 	                	<div class="accordion" id="accordion1">
 							<div class="accordion-group">
 								<div class="accordion-heading">
-									<p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">Why we ask</p>
+									<i class="icon-chevron-up"></i><p class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">Why we ask</p>
 								</div>
 								<div id="collapseOne" class="accordion-body collapse">
 									<div class="accordion-inner">
@@ -53,11 +53,16 @@
 							</div>
 						</div>
 	                    <p>Please select one or more</p>
-	                    <input type="checkbox" name="question" id="q1-tasks"><label for="q1-tasks">Tasks — You ask the crowd to perform specific tasks (i.e. design a t-shirt, tag photos, classify information)</label><br>
-	                    <input type="checkbox" name="question" id="q1-data"><label for="q1-data">Data — You collect data from the crowd (i.e. report a water leak, a pothole, a case of corruption)</label><br>
-	                    <input type="checkbox" name="question" id="q1-funds"><label for="q1-funds">Funds — You obtain funds from the crowd (i.e. donate money to help film a documentary, open a fair trade restaurant, help stage a theater play)</label><br>
-	                    <input type="checkbox" name="question" id="q1-opinions"><label for="q1-opinions">Opinions — You ask the crowd for their opinion (i.e. vote on a design contest, give your perspective on a policy recommendation)</label><br>
-	                    <input type="checkbox" name="question" id="q1-ideas"><label for="q1-ideas">Ideas –You want the crowd to find innovative solutions (i.e. solve a scientific problem, give solutions to improve the health system of a hospital, generate ideas to reduce unnecessary government spending)</label>
+	                    <div>
+	                    	<label for="q1-tasks"><input type="checkbox" name="question" id="q1-tasks">Tasks — You ask the crowd to perform specific tasks (i.e. design a t-shirt, tag photos, classify information)</label></div>
+	                    <div>
+	                    	<label for="q1-data"><input type="checkbox" name="question" id="q1-data">Data — You collect data from the crowd (i.e. report a water leak, a pothole, a case of corruption)</label></div>
+	                    <div>
+	                    	<label for="q1-funds"><input type="checkbox" name="question" id="q1-funds">Funds — You obtain funds from the crowd (i.e. donate money to help film a documentary, open a fair trade restaurant, help stage a theater play)</label></div>
+	                    <div>
+	                    	<label for="q1-opinions"><input type="checkbox" name="question" id="q1-opinions">Opinions — You ask the crowd for their opinion (i.e. vote on a design contest, give your perspective on a policy recommendation)</label></div>
+						<div>
+							<label for="q1-ideas"><input type="checkbox" name="question" id="q1-ideas">Ideas –You want the crowd to find innovative solutions (i.e. solve a scientific problem, give solutions to improve the health system of a hospital, generate ideas to reduce unnecessary government spending)</label></div>
 					</div>
 
 	                <div class="item col-lg-8">
@@ -75,18 +80,42 @@
 							</div>
 						</div>
 	                    <p>Please select one or more</p>
-						<input type="checkbox" name="question" id="q2-finance"><label for="q2-finance">Financial Incentives –To earn money</label><br>
-						<input type="checkbox" name="question" id="q2-knowledge"><label for="q2-knowledge">Knowledge Building and Information Sharing — To contribute with your knowledge and information</label><br>
-						<input type="checkbox" name="question" id="q2-skill"><label for="q2-skill">Skill Development — To develop certain skills</label><br>
-						<input type="checkbox" name="question" id="q2-community"><label for="q2-community">Community Building –To contribute to a large project of common interest</label><br>
-						<input type="checkbox" name="question" id="q2-civic"><label for="q2-civic">Civic Responsibility –Altruism motivates citizen volunteers</label><br>
-						<input type="checkbox" name="question" id="q2-competition"><label for="q2-competition">Competition — To be challenged with a tough problem</label><br>
-						<input type="checkbox" name="question" id="q2-altruism"><label for="q2-altruism">Altruistic incentive —To help others</label><br>
-						<input type="checkbox" name="question" id="q2-recreational"><label for="q2-recreational">Recreational (ludic) incentive — To enjoy oneself and have fun</label><br>
-						<input type="checkbox" name="question" id="q2-networking"><label for="q2-networking">Network building — To meet individuals and establish work connections</label><br>
-						<input type="checkbox" name="question" id="q2-identity"><label for="q2-identity">Identity and Portfolio building- To develop personal qualities or a portfolio of work</label><br>
-						<input type="checkbox" name="question" id="q2-public"><label for="q2-public">Public Recognition –To socialize and be publicly acknowledged</label><br>
-						<input type="checkbox" name="question" id="q2-personal"><label for="q2-personal">Personal satisfaction- To feel good about oneself</label><br>
+						<div>
+							<label for="q2-finance"><input type="checkbox" name="question" id="q2-finance">Financial Incentives –To earn money</label>
+						</div>
+						<div>
+							<label for="q2-knowledge"><input type="checkbox" name="question" id="q2-knowledge">Knowledge Building and Information Sharing — To contribute with your knowledge and information</label>
+						</div>
+						<div>
+							<label for="q2-skill"><input type="checkbox" name="question" id="q2-skill">Skill Development — To develop certain skills</label>
+						</div>
+						<div>
+							<label for="q2-community"><input type="checkbox" name="question" id="q2-community">Community Building –To contribute to a large project of common interest</label>
+						</div>
+						<div>
+							<label for="q2-civic"><input type="checkbox" name="question" id="q2-civic">Civic Responsibility –Altruism motivates citizen volunteers</label>
+						</div>
+						<div>
+							<label for="q2-competition"><input type="checkbox" name="question" id="q2-competition">Competition — To be challenged with a tough problem</label>
+						</div>
+						<div>
+							<label for="q2-altruism"><input type="checkbox" name="question" id="q2-altruism">Altruistic incentive —To help others</label>
+						</div>
+						<div>
+							<label for="q2-recreational"><input type="checkbox" name="question" id="q2-recreational">Recreational (ludic) incentive — To enjoy oneself and have fun</label>
+						</div>
+						<div>
+							<label for="q2-networking"><input type="checkbox" name="question" id="q2-networking">Network building — To meet individuals and establish work connections</label>
+						</div>
+						<div>
+							<label for="q2-identity"><input type="checkbox" name="question" id="q2-identity">Identity and Portfolio building- To develop personal qualities or a portfolio of work</label>
+						</div>
+						<div>
+							<label for="q2-public"><input type="checkbox" name="question" id="q2-public">Public Recognition –To socialize and be publicly acknowledged</label>
+						</div>
+						<div>
+							<label for="q2-personal"><input type="checkbox" name="question" id="q2-personal">Personal satisfaction- To feel good about oneself</label>
+						</div>
 					</div>
 
 					<div class="item col-lg-8">
@@ -104,8 +133,8 @@
 							</div>
 						</div>
 	                    <p>Please select one or more</p>
-						<input type="checkbox" name="question" id="q3-yes"><label for="q3-yes">Yes – I want to limit participation to a defined community</label><br>
-						<input type="checkbox" name="question" id="q3-no"><label for="q3-no">No – Allow anyone willing to participate to do so</label><br>
+						<div><label for="q3-yes"><input type="checkbox" name="question" id="q3-yes">Yes – I want to limit participation to a defined community</label></div>
+						<div><label for="q3-no"><input type="checkbox" name="question" id="q3-no">No – Allow anyone willing to participate to do so</label></div>
 					</div>
 
 					<div class="item col-lg-8">
@@ -123,11 +152,11 @@
 							</div>
 						</div>
 	                    <p>Please select one or more</p>
-						<input type="checkbox" name="question" id="q4-mobile"><label for="q4-mobile">Mobile Application</label><br>
-						<input type="checkbox" name="question" id="q4-website"><label for="q4-website">Website</label><br>
-						<input type="checkbox" name="question" id="q4-sms"><label for="q4-sms">SMS Texts</label><br>
-						<input type="checkbox" name="question" id="q4-social"><label for="q4-social">Social Media</label><br>
-						<input type="checkbox" name="question" id="q4-emails"><label for="q4-emails">Emails</label><br>
+						<div><label for="q4-mobile"><input type="checkbox" name="question" id="q4-mobile">Mobile Application</label></div>
+						<div><label for="q4-website"><input type="checkbox" name="question" id="q4-website">Website</label></div>
+						<div><label for="q4-sms"><input type="checkbox" name="question" id="q4-sms">SMS Texts</label></div>
+						<div><label for="q4-social"><input type="checkbox" name="question" id="q4-social">Social Media</label></div>
+						<div><label for="q4-emails"><input type="checkbox" name="question" id="q4-emails">Emails</label></div>
 					</div>
 
 					<div class="item col-lg-8">
@@ -145,13 +174,24 @@
 							</div>
 						</div>
 	                    <p>Please select one or more</p>
-						<input type="checkbox" name="question" id="q5-you"><label for="q5-you">You -The crowdsourcing organization will choose which activity performed by the crowd is the best fit</label><br>
-						<input type="checkbox" name="question" id="q5-group"><label for="q5-group">Group of Experts -A group of experts will verify the quality and have the final decision about the activity performed by the crowd</label><br>
-						<input type="checkbox" name="question" id="q5-voting"><label for="q5-voting">Voting -The crowd will verify the quality of the activity performed the crowd by voting for the best choice</label><br>
-						<input type="checkbox" name="question" id="q5-rating"><label for="q5-rating">Rating -The crowd will rate the quality of the activity performed by ranking submissions or individually voting up or down</label><br>
-						<input type="checkbox" name="question" id="q5-peer"><label for="q5-peer">Peer-reviewed -A self-selected group of peers will verify the quality of the activity performed by the crowd to which they belong</label><br>
-						<input type="checkbox" name="question" id="q5-none"><label for="q5-none">No quality control - for example, crowdfunding doesn’t require a quality control mechanism</label><br>
-
+						<div>
+							<label for="q5-you"><input type="checkbox" name="question" id="q5-you">You -The crowdsourcing organization will choose which activity performed by the crowd is the best fit</label>
+						</div>
+						<div>
+							<label for="q5-group"><input type="checkbox" name="question" id="q5-group">Group of Experts -A group of experts will verify the quality and have the final decision about the activity performed by the crowd</label>
+						</div>
+						<div>
+							<label for="q5-voting"><input type="checkbox" name="question" id="q5-voting">Voting -The crowd will verify the quality of the activity performed the crowd by voting for the best choice</label>
+						</div>
+						<div>
+							<label for="q5-rating"><input type="checkbox" name="question" id="q5-rating">Rating -The crowd will rate the quality of the activity performed by ranking submissions or individually voting up or down</label>
+						</div>
+						<div>
+							<label for="q5-peer"><input type="checkbox" name="question" id="q5-peer">Peer-reviewed -A self-selected group of peers will verify the quality of the activity performed by the crowd to which they belong</label>
+						</div>
+						<div>
+							<label for="q5-none"><input type="checkbox" name="question" id="q5-none">No quality control - for example, crowdfunding doesn’t require a quality control mechanism</label>
+						</div>
 						<div class="col-lg-8 text-center">
 							<button class="button button-big button-border-light button-generate-report">Generate Report</button>
 						</div>

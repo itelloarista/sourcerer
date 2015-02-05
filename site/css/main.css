@@ -178,6 +178,7 @@ h4 {
 	display:table-cell;
 	vertical-align:middle;
 	width:100%;
+	background: rgba(0,0,0, 0.3);
 }
 
 #slides h1 {
@@ -189,6 +190,7 @@ h4 {
 	font-size:2em;
 	color:#ffffff;
 }
+
 
 
 /* WELCOME */
@@ -311,13 +313,22 @@ h4 {
 	
 }
 
+/* ADVISOR */
+#advisor-title {
+	background: url(/img/sourcerer-main.jpg)
+}
+
+#advisor-title h1 {
+	color: white;
+}
+
 
 /* QUESTIONNAIRE */
 
 #questionnaire {
 	color:#333333;
 	background-color:#ececee;
-	padding:55px 0 35px 0;
+	padding:25px 0 35px 0;
 	width:100%;
 	overflow: hidden;
 	z-index:0;
@@ -325,6 +336,14 @@ h4 {
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
+}
+
+.accordion-body {
+	margin-left: 20px;
+}
+
+p .accordion-toggle {
+	font-size: 14px;
 }
 
 #questionnaire img {
@@ -343,7 +362,7 @@ h4 {
 	font-family:'Montserrat';
 	letter-spacing:-1px;
 	line-height:22px;
-	padding-top:22px;
+	padding-top:10px;
 	margin-left:20px;
 }
 
@@ -575,6 +594,23 @@ textarea {
 
 :-ms-input-placeholder {  
    color: #1a1a1a;  
+}
+
+label {
+	display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+input[type="checkbox"] {
+	width: 13px;
+    height: 13px;
+    padding: 0;
+    margin-right: 5px;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
 }
 
 
