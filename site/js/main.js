@@ -309,37 +309,6 @@ $(window).load(function(){
 	});
 
 });
-
-
-	//GOOGLE MAP
-	function init_map() {
-    var myOptions = {
-        zoom: 14,
-        center: new google.maps.LatLng(40.801485408197856, -73.96745953467104), //change the coordinates
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-		scrollwheel: false,
-		mapTypeControl: false,
-   		styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
-    };
-	
-	
-
-	
-    map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-    marker = new google.maps.Marker({
-        map: map,
-        position: new google.maps.LatLng(40.801485408197856, -73.96745953467104) //change the coordinates
-    });
-    infowindow = new google.maps.InfoWindow({
-        content: "<b>Avalith Co.</b><br/>2880 Broadway<br/> New York"  //add your address
-    });
-    google.maps.event.addListener(marker, "click", function () {
-        infowindow.open(map, marker);
-    });
-    infowindow.open(map, marker);
-	}
-	google.maps.event.addDomListener(window, 'load', init_map);
-	
 	
 	// CONTACT FORM FUNCTION
 	var contact_send = function(){
