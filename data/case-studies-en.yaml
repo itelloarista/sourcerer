@@ -15,6 +15,9 @@
   location: India
   interface:
   quality_control:
+  size:
+  duration:
+  cost:
   historical_information: >
    I Paid a Bribe was launched by the co-founders and board members of 
    Janaagraha, a non-profit that works to improve the quality of citizenship, 
@@ -32,6 +35,7 @@
    On average, the site receives about 25 to 50 reports a day. In addition, 
    there are about 20-50 reports and comments a day logged in on the various 
    forums and the administrator’s blog.
+  participation:
   output: >
     The use of crowd-reporting services has, to date, traditionally been 
     utilized in areas of public works, like reporting potholes. I Paid A Bribe 
@@ -50,7 +54,72 @@
     The platform could also benefit from an improved user-interface, including 
     search functions and access to raw data.
   lessons:
-
+  validation:
+  
+- title: agreeble
+  url: http://agreeble.com
+  description: >
+   agreeble is an interactive surveying platform and sentiment analysis tool 
+   that aims to produce "insight through open dialogue" by curating issues and
+   gauging community perception on those issues. 
+   <br/>
+   agreeble identifies consensus-driving and polarizing opinions in gropus of
+   people. When users voice their opinions, delivering the accountability of a
+   survey with the unique insights found only on social networks.
+  activity: >
+   Data
+   Opinions
+  scope: >
+   International
+   National
+  sector: Private
+  thumbnail_url: 
+  focus: >
+   Buisiness-and-legal-services
+   Data-Technology
+   Finance-and-investment
+   Governance
+  incentives: >
+   Financial-incentives
+   Knowledge-building-and-information-sharing
+   Recreational-incentive
+  location: Web-based
+  interface: >
+   Mobile-application
+   Website
+   Social-media
+  quality_control: >
+   Voting
+   Peer-reviewed
+  size: 
+  duration: 1 year
+  cost: free
+  historical_information: >
+   Agreeble started to answer the question, which opinions drive consensus between
+   people on polar ends of an issue?
+   <br/>
+   We proved the concept by playing an index card version of the game, which worked
+   great for about five people. Once we worked out kinks in the model, development
+   began, and we started working with larger sample sets. 
+   <br/>
+   We incorporated in January of 2014 and have since added advisors in research, ux, 
+   marketing, and rhetoric. We have additionally partnered with Amazon and uSamp for
+   sourcing samples.
+  participation: >
+   Users can source probability or non-probability samples.
+  output:
+  impact_today: >
+   The impact it has varies from user to user. Some use it to impact their brand 
+   messaging, others use it to respond to public relations issues. Our political 
+   users have leveraged it to study their demographics on local issues.
+  impact_longer_term: >
+   We believe that part of the problem with polarization is the platform. Our goal 
+   is to shed light on the grey, when issues seem black or white, and see if we 
+   can't unlock consensus in the process. 
+  challenges:
+  lessons:
+  validation:
+  
 - title: Kickstarter
   focus: Crowdfunding
   thumbnail_url: img/1big.jpg
