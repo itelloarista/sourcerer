@@ -1,61 +1,48 @@
 ---
-
-- title: I Paid a Bribe
-  url: http://www.ipaidabribe.com
+- title: Adopt a Hydrant
+  url: http://boston.adoptahydrant.com
   description: >
-   I Paid A Bribe is an online platform that uses citizen reporting 
-   to identify corrupt government services and work with local government to 
-   effect process change.
-  activity: Data
+   Adopt-a-Hydrant is a web application that allows citizens to "adopt" civic
+   infrastructure, such as fire hydrants that need to be shoveled out after it
+   snows.
+  activity: Tasks
   scope: National
-  sector: Non-profit
-  thumbnail_url: img/1big.jpg
-  focus: Transparency-Accountability
-  incentives: Civic-Reponsibility
-  location: India
-  interface:
-  quality_control:
-  size:
-  duration:
-  cost:
+  sector: Nonprofit
+  thumbnail_url: 
+  focus: >
+   Civic participation
+   Environment and weather
+   Geospatial mapping
+  incentives: >
+   Civic responsibility 
+   Altruistic incentive
+   Personal satisfaction
+  location: Boston-Massachusetts-USA
+  interface: Website
+  quality_control: Peer-reviewed
+  size: 1200
+  duration: Since-2011
+  cost: $1-$200-USD/year 
   historical_information: >
-   I Paid a Bribe was launched by the co-founders and board members of 
-   Janaagraha, a non-profit that works to improve the quality of citizenship, 
-   infrastructure and services in India's cities. The site was officially
-    launched on August 15, 2010, India's Independence Day.
-   <br/>
-   The site allows Citizens to report bribes, which Janaagraha uses to push 
-   for improving governance systems and procedures, with the goal of 
-   tightening law enforcement and regulation, and thereby reducing the scope 
-   of corruption in government services. On the site, users can report on the 
-   nature, number, pattern, types, location, frequency and values of actual 
-   corrupt acts in government.
-   <br/>
-   Users can sort and view all reports, as well as report "honest officials".
-   On average, the site receives about 25 to 50 reports a day. In addition, 
-   there are about 20-50 reports and comments a day logged in on the various 
-   forums and the administrator’s blog.
-  participation:
+   The project started in 2011 when Erik Michael-Ober was a Code for America 
+   Fellow, partnered with the City of Boston. 
+  participation: I-allow-anyone-to-participate
   output: >
-    The use of crowd-reporting services has, to date, traditionally been 
-    utilized in areas of public works, like reporting potholes. I Paid A Bribe 
-    is notable for taking this type of functionality out of the utilitarian 
-    realm and applying it to combat corruption. To date, the I Paid A Bribe 
-    site has received over 4.5 million visits.
+   The City of Boston has over 13,000 fire hydrants, which are mapped.
   impact_today: >
-    I Paid a Bribe has launched, or is coming soon, to 16 other countries, and 
-    may serve as inspiration for other corruption-based crowd reporting 
-    initiatives. As of 2012, there were more than 400,000 reports to the site. 
+   1200 people in Boston have signed-up to shovel fire hydrants around the their 
+   homes or offices. The open-source code has also been forked and used various 
+   other cities to adopt other types of civic infrastructure (e.g. tsunami 
+   warning sirens in Honolulu, Hawaii).
   impact_longer_term: >
-    TBD
-  challenges: >
-    The greatest challenge to the efficacy of I Paid A Bribe is that the 
-    initiative is not integrated with government in any official capacity. 
-    The platform could also benefit from an improved user-interface, including 
-    search functions and access to raw data.
+   That Adopt-a-Hydrant continues to grow and spread, as it has every year since 
+   I created it. 
+  crowd: >
+   Civic-minded Boston residents.
+  challenges:
   lessons:
   validation:
-  
+
 - title: agreeble
   url: http://agreeble.com
   description: >
@@ -116,56 +103,364 @@
    We believe that part of the problem with polarization is the platform. Our goal 
    is to shed light on the grey, when issues seem black or white, and see if we 
    can't unlock consensus in the process. 
+  crowd:
   challenges:
   lessons:
   validation:
   
+- title: I Paid a Bribe
+  url: http://www.ipaidabribe.com
+  description: >
+   I Paid A Bribe is an online platform that uses citizen reporting 
+   to identify corrupt government services and work with local government to 
+   effect process change.
+  activity: Data
+  scope: National
+  sector: Non-profit
+  thumbnail_url: img/1big.jpg
+  focus: Transparency-Accountability
+  incentives: Civic-Reponsibility
+  location: India
+  interface: >
+   Mobile Application
+   Website
+   Social Media
+  quality_control:
+  size:
+  duration:
+  cost:
+  historical_information: >
+   I Paid a Bribe was launched by the co-founders and board members of 
+   Janaagraha, a non-profit that works to improve the quality of citizenship, 
+   infrastructure and services in India's cities. The site was officially
+    launched on August 15, 2010, India's Independence Day.
+   <br/>
+   The site allows Citizens to report bribes, which Janaagraha uses to push 
+   for improving governance systems and procedures, with the goal of 
+   tightening law enforcement and regulation, and thereby reducing the scope 
+   of corruption in government services. On the site, users can report on the 
+   nature, number, pattern, types, location, frequency and values of actual 
+   corrupt acts in government.
+   <br/>
+   Users can sort and view all reports, as well as report "honest officials".
+   On average, the site receives about 25 to 50 reports a day. In addition, 
+   there are about 20-50 reports and comments a day logged in on the various 
+   forums and the administrator’s blog.
+  participation:
+  output: >
+    The use of crowd-reporting services has, to date, traditionally been 
+    utilized in areas of public works, like reporting potholes. I Paid A Bribe 
+    is notable for taking this type of functionality out of the utilitarian 
+    realm and applying it to combat corruption. To date, the I Paid A Bribe 
+    site has received over 4.5 million visits.
+  impact_today: >
+    I Paid a Bribe has launched, or is coming soon, to 16 other countries, and 
+    may serve as inspiration for other corruption-based crowd reporting 
+    initiatives. As of 2012, there were more than 400,000 reports to the site. 
+  impact_longer_term: >
+    TBD
+  crowd:
+  challenges: >
+    The greatest challenge to the efficacy of I Paid A Bribe is that the 
+    initiative is not integrated with government in any official capacity. 
+    The platform could also benefit from an improved user-interface, including 
+    search functions and access to raw data.
+  lessons:
+  validation:
+  
 - title: Kickstarter
-  focus: Crowdfunding
+  url: https://www.kickstarter.com/
+  description: >
+  activity: 
+  scope: 
+  sector: 
   thumbnail_url: img/1big.jpg
+  focus: 
+  incentives: 
+  location: USA
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
    in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
    in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
    In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  location: USA
-
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
+  
+- title: Innocentive
+  url: http://www.innocentive.com/
+  description: >
+   InnoCentive is an open innovation company that solves research and development 
+   problems by creating and connecting a global network of problem solvers,
+   and giving cash awards to those solvers who provide the best solutions.
+  activity: Ideas
+  scope: International 
+  sector: Private
+  thumbnail_url: img/1big.jpg
+  focus: >
+   Research and consulting
+   Scientific Research 
+  incentives: >
+   Financial Incentives
+   Competition
+   Recreational Incentive
+   Network Building
+   Personal Satisfaction
+  location: 
+  interface:
+  quality_control: >
+   Organization
+   Group of experts 
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  participation:
+  output:
+  impact_today: >
+   As of August 2013, InnoCentive reports that their network includes 300,000+
+   solvers from nearly 200 countries. More than 1,650 external challenges have 
+   been posted, receiving over 40,000 solution submissions, and awards have 
+   been distributed to over 1,500 individuals for a total value of $40+ million.
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
+  
+- title: Open Data 500
+  url: 
+  description: >
+  activity: 
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: 
+  location: 
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
+  
 - title: Quora
-  focus: Q&A Site
-  thumbnail_url: img/1big.jpg
+  url: 
+  description: >
+  activity: 
+  scope: 
+  sector: 
+  thumbnail_url: 
+  focus: 
+  incentives: 
+  location: 
+  interface:
+  quality_control:
+  size:
+  duration:
+  cost:
+  platform:
   historical_information: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
    in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
    in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
    In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  location: USA
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
+
+- title: Tehuan 3.0
+  url: http://tehuan.cic.mx
+  description: >
+   Tehuan is an effort to enable citizen cooperation and participation through
+   the use of technology while providing a trusted medium to report issues that
+   need attention, from a pothole, water leak, car accident or merely traffic to 
+   issues that involve public safety.
+  activity: >
+   Data
+   Opinions
+  scope: >
+   Regional
+   Local
+  sector: Nonprofit
+  thumbnail_url: 
+  focus: >
+   Civic innovation
+   Civic participation
+   Data/Technology
+   Geospatial/Mapping
+   Lifestyle and Consumer
+   Transparency and Accountability 
+   Urban development
+  incentives: >
+   Civic-resonsibility
+   To feel safer
+  location: Monterrey-Mexico
+  interface: >
+   Mobile Application
+   Website
+   SMS Texts
+   Social Media
+   Email
+   Telephone
+  quality_control: >
+   Voting
+   Rating
+   Peer-reviewed
+   Social media reputation
+  size:
+  duration: 3-years
+  cost: $1,000 USD/year-and-up
+  platform: >
+   Ushahidi 
+   CartoDB
+   Google Maps
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  participation: I-allow-anyone-to-participate
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges: >
+   Reaching those who have no internet access. 
+  lessons: >
+   Social media becomes an important digital footprint of public figures
+   and this can be a fantastic tool for future citizen participation. 
+  validation: >
+   It was the best way to deploy as many sensors as eyes in Monterrey. 
+
+- title: Threadless
+  url: https://www.threadless.com/
+  description: >
+   Threadless is an online retailer founded in 2000 by Jake Nickell and Jacob DeHart. 
+   The Threadless community is made up of artists, customers, and fans. 
+   Members can submit and vote on different designs. Winning designs are then printed 
+   and sold through the website.
+  activity: >
+   Tasks
+   Opinions
+  scope: 
+  sector: Private
+  thumbnail_url: 
+  focus: Lifestyle-and-consumer
+  incentives: >
+   Financial Incentives
+   Skill Development
+   Community Building
+   Competition
+   Public Recognition 
+  location: 
+  interface: >
+   Mobile Application
+   Website
+   Social Media
+  quality_control: Voting
+  size:
+  duration: 6-years
+  cost:
+  platform:
+  historical_information: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
+   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
+   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
+   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
+  participation:
+  output:
+  impact_today:
+  impact_longer_term:
+  crowd:
+  challenges:
+  lessons:
+  validation:
 
 - title: Ushahidi
-  focus: Crisis Mapping
-  thumbnail_url: img/1big.jpg
+  url: http://www.ushahidi.com/
+  description: >
+   Ushahidi is a free, open source interactive mapping platform that can draw in a
+   wide variety of data streams to visually present location-based information.
+   It was originally developed in response to post-election violence in Kenya in 
+   2008 and has since been used for a wide variety of humanitarian and civic ends.
+  activity: >
+   Data
+   Opinions
+   Ideas
+  scope: 
+  sector: Nonprofit
+  thumbnail_url: 
+  focus: >
+   Civic participation
+   Geospatial and Mapping
+  incentives: >
+   Knowledge Building
+   Community Building 
+   Civic Responsibility 
+  location: 
+  interface: >
+   Mobile Application
+   Website
+   SMS Texts
+   Social Media
+  quality_control: >
+   Group of experts
+   Peer-reviewed
+  size:
+  duration:
+  cost:
+  platform:
   historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  location: Mexico
-
-- title: Innocentive
-  focus: Prize-Backed Challenges
-  thumbnail_url: img/1big.jpg
-  historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  location: Norway
-
-- title: Open Data 500
-  focus: Open Data
-  thumbnail_url: img/1big.jpg
-  historical_information: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum, urna 
-   in venenatis fringilla, elit lorem accumsan ante, egestas pulvinar enim justo 
-   in lectus. Nullam elementum vulputate orci, ac vestibulum lorem viverra ut. 
-   In id auctor diam. Aenean vulputate elementum porta. Aliquam vel dui diam.
-  location: France
+   Ushahidi, which means “testimony” in Swahili, was originally developed by an 
+   ad hoc group of volunteers in 2008 to help map reports of violence following 
+   the Kenyan election.
+  participation:
+  output:
+  impact_today: >
+   As of 2014, the Ushashidi Platform has 65,000+ maps, in 31 languages, 
+   covering 159 countries.
+  impact_longer_term:
+  crowd:
+  challenges: >
+   The Ushahidi website provides a wealth of information for developers,
+   but little guidance for people seeking to contribute to a particular deployment. 
+   While the Community section features a map and list of deployments,
+   a more central means of discovery for users could prove beneficial.
+  lessons:
+  validation:
